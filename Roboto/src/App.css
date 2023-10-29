@@ -1,0 +1,239 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "varela Round";
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding:30px 50px 20px 50px;
+  box-sizing: border-box;
+  background-color: #272b34;
+}
+
+   
+.logo{
+          font-size: 30px;
+          letter-spacing: 10px;
+          text-transform: uppercase;
+        }
+       
+ nav {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center; 
+          width: 100%;
+          color: white;
+        }
+        
+ul {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+        }
+        
+ul li {
+          font-size: 16px;
+          margin-left: 15px;
+          padding: 10px;
+          box-sizing: border-box;
+          color: rgba(255, 255, 255, 0.7);
+          cursor: pointer;
+        }
+        
+      
+.add-button {
+          display: flex;
+          align-items: center;
+          background-color: #ff6b6b;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+          font-weight: bold;
+          text-decoration: none;
+
+      }
+
+.add-robo-link {
+        text-decoration: none; 
+        color: #ffffff; 
+      }
+a {
+        text-decoration: none;
+        color: white;
+      } 
+      
+.add-button button:hover {
+          background-color: #fc4444;
+          cursor: pointer;
+      }
+      
+
+.maincontent{
+    display: flex;
+    position: relative;
+    width: 70%;
+    height:100%;
+    margin:50px auto;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+  }
+
+  .maincontent h3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color:azure;
+    font-size: 10.5vw;
+  }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px; 
+}
+.my-robots {
+  margin-bottom: 20px; 
+}
+
+
+
+ .items h2{
+  color: #fff;
+  margin-top: 20px ;
+ }
+
+ .card {
+  width: 30%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: scale(0.9); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.card_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 10px;
+  background-color: #ff6b6b;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+}
+
+.card_header h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 8px;
+  text-align: center; 
+}
+
+.card_header p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center; 
+}
+
+.share-icon {
+  position: absolute;
+  top: 5px;
+  padding: 8px;
+  right: 5px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.card_header:hover {
+  background-color: #fc4444;
+  cursor: pointer; 
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+footer {
+  background-color: #272b34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.add-robot-container {
+  width: 100%;
+  height: 80vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272b34;
+  color: white;
+  text-align: center;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: white; 
+  background-color: #272b34; 
+}
+
+.add-robot-button {
+  background-color: #ff6b6b; 
+  color: white; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.add-robot-button:hover {
+  background-color: #fc4444;
+}
